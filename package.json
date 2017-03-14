@@ -1,0 +1,19 @@
+{
+  "name": "bitscoop-alexa-demo",
+  "version": "0.1.0",
+  "private": true,
+  "author": "BitScoop Labs, Inc.",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "bitscoop-sdk": "^0.1.0",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.1",
+    "grunt-eslint": "^19.0.0",
+    "grunt-jsonlint": "^1.0.7",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
