@@ -1,0 +1,26 @@
+{
+  "logging": {
+    "severity": "debug",
+    "targets": [
+      {
+        "type": "console",
+        "formatter": "human"
+      }
+    ]
+  },
+
+  "agent": {
+    "host": "bitscoop.com",
+    "port": "443",
+    "path": "/",
+    "rejectUnauthorized": false
+  },
+
+  "bitscoop": {
+    "key": ""
+  },
+
+  "github": {
+    "mapId": ""
+  }
+}

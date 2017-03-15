@@ -1,0 +1,14 @@
+{
+  "name": "github-trending-repos",
+  "version": "0.1.0",
+  "private": true,
+  "author": "BitScoop Labs, Inc.",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "bluebird": "^3.3.4",
+    "config": "^1.20.1",
+    "http-errors": "^1.4.0",
+    "lodash": "^4.6.1",
+    "request": "^2.79.0"
+  }
+}
