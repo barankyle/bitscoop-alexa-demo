@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "name": "StatusCake Alerts https://www.statuscake.com/api/Alerts/Get%20Sent%20Alerts.md",
+  "url": "https://app.statuscake.com",
+  "auth": {
+    "type": "header    API: [APIKey]",
+    "auth_key": "*** INSERT YOUR AUTH KEY HERE ***"
+  },
+  "endpoints": {
+    "Alerts": {
+      "GET": {
+        "method": "GET",
+        "route": {
+          "data": "items",
+          "path": "/API/Alerts"
+        },
+        "parameters": {
+          "TestID": {
+            "value": ""
+          },
+          "Since": {
+            "value": ""
+          },
+        }
+      }
+    }
+  }
+}

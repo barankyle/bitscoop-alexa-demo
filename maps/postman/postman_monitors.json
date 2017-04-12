@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "name": "Postman Monitors Alerts https://docs.api.getpostman.com/#c447070-b559-59b2-8d04-d7b0a13fd26a",
+  "url": "https://api.getpostman.com",
+  "auth": {
+    "type": "header    x-api-key: [APIKey]",
+    "auth_key": "*** INSERT YOUR AUTH KEY HERE ***"
+  },
+  "endpoints": {
+    "runMonitor": {
+      "GET": {
+        "method": "GET",
+        "route": {
+          "data": "items",
+          "path": "/monitors/{{monitor_uid}}/run"
+        },
+        "parameters": {
+          "MonitorUID": {
+            "value": ""
+          },
+        }
+      }
+    }
+  }
+}

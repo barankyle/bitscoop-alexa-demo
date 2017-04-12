@@ -1,0 +1,23 @@
+[
+  {
+    "uid": "bsuuid:EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_1",
+    "updateDate": "2017-01-11T00:00:00.0Z",
+    "titleText": "Google Analytics Unique Users Today",
+    "mainText": "There are 933 users to Bitscoop.com today. 275 are new.",
+    "redirectionUrl": "https://www.bitscoop.com"
+   },
+  {
+    "uid": "bsuuid:EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_2",
+    "updateDate": "2017-01-10T00:00:00.0Z",
+    "titleText": "GitHub Trending Repos",
+    "mainText": "Top three repositories currently on GitHub. 1. vibrant.js Extract prominent colors from an image. JS port of Android's Palette. language, JavaScript 2. JSPatch JSPatch bridge Objective-C and JavaScript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. 3. KRVideoPlayer 类似Weico的播放器，支持竖屏模式下全屏播放",
+    "redirectionUrl": "https://www.bitscoop.com"
+  },
+  {
+    "uid": "bsuuid:EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_3",
+    "updateDate": "2017-01-10T00:00:00.0Z",
+    "titleText": "Internet outages report",
+    "mainText": "Cox north east is currently down. Twitter was down for 5 minutes at 4:15 pm.",
+    "redirectionUrl": "https://www.bitscoop.com"
+  }
+]
