@@ -18,8 +18,8 @@ module.exports = function() {
 		return Promise.resolve('Google is missing some important configuration parameters.');
 	}
 
-	let map = bitscoop.map(process.env.GOOGLE_MAP_ID);
-	let cursor = map.endpoint('Metrics').method('GET');
+	let api = bitscoop.api(process.env.GOOGLE_MAP_ID);
+	let cursor = api.endpoint('Metrics').method('GET');
 
 	return cursor({
 		headers: {

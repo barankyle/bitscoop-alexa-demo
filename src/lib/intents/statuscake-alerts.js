@@ -14,8 +14,8 @@ module.exports = function() {
 		return Promise.resolve('StatusCake is missing some important configuration parameters.');
 	}
 
-	let map = bitscoop.map(process.env.STATUSCAKE_MAP_ID);
-	let cursor = map.endpoint('Alerts').method('GET');
+	let api = bitscoop.api(process.env.STATUSCAKE_MAP_ID);
+	let cursor = api.endpoint('Alerts').method('GET');
 
 	return cursor({
 		query: {

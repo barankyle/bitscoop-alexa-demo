@@ -12,8 +12,8 @@ module.exports = function() {
 		return Promise.resolve('Postman is missing some important configuration parameters.');
 	}
 
-	let map = bitscoop.map(process.env.POSTMAN_MAP_ID);
-	let cursor = map.endpoint('RunMonitor').method('POST');
+	let api = bitscoop.api(process.env.POSTMAN_MAP_ID);
+	let cursor = api.endpoint('RunMonitor').method('POST');
 
 	return cursor({
 		query: {
